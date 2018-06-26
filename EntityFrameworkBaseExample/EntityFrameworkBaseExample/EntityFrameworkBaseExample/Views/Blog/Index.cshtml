@@ -1,0 +1,52 @@
+﻿@model IEnumerable<EntityFrameworkBaseExample.Entity.Blog>
+
+@{
+    ViewBag.Title = "Blogs";
+}
+<h2>博客列表</h2>
+<p>
+    <a href="/blog/upinsert" class="btn btn-primary">创建</a>
+</p>
+<table class="table">
+    <tr>
+        <th>Id</th>
+        <th>博客地址</th>
+        <th>技术标签</th>
+        <th>博主名称</th>
+        <th>邮箱</th>
+        <th>操作</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Url)
+            </td>
+            <td>
+                @(item.Tags == null ? String.Empty : String.Join(", ", item.Tags))
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner.Name)
+                @Html.DisplayFor(modelItem => item.Owner.EnglishName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Owner.Email)
+            </td>
+            @{
+                if (item.Id > 0)
+                {
+                    <td>
+                        @Html.ActionLink("编辑", "Get", "Blog", new { id = item.Id }, new { @class = "btn btn-primary" })
+
+
+                        @Html.ActionLink("删除", "Delete", "Blog", new { id = item.Id }, new { @class = "btn btn-danger" })
+                    </td>
+
+                }
+            }
+        </tr>
+                }
+</table>
