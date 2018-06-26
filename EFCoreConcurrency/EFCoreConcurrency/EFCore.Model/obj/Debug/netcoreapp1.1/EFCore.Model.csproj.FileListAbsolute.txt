@@ -1,0 +1,7 @@
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\bin\Debug\netcoreapp1.1\EFCore.Model.deps.json
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\bin\Debug\netcoreapp1.1\EFCore.Model.dll
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\bin\Debug\netcoreapp1.1\EFCore.Model.pdb
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\obj\Debug\netcoreapp1.1\EFCore.Model.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\obj\Debug\netcoreapp1.1\EFCore.Model.AssemblyInfo.cs
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\obj\Debug\netcoreapp1.1\EFCore.Model.dll
+D:\Visual Studio 2015\Projects\EFCoreConcurrency\EFCore.Model\obj\Debug\netcoreapp1.1\EFCore.Model.pdb
