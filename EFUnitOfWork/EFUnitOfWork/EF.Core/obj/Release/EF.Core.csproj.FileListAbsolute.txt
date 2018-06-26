@@ -1,0 +1,8 @@
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\bin\Release\EF.Core.dll
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\bin\Release\EF.Core.pdb
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\bin\Release\Polly.dll
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\bin\Release\Polly.pdb
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\bin\Release\Polly.xml
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\obj\Release\EF.Core.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\obj\Release\EF.Core.dll
+D:\Visual Studio 2015\Projects\EFUnitOfWork\EF.Core\obj\Release\EF.Core.pdb

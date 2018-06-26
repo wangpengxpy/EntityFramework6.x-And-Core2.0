@@ -1,0 +1,57 @@
+﻿@model IEnumerable<EFUnitOfWork.Models.BookDTO>
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">二手书店</div>
+    <div class="panel-body">
+        <a id="createEditBookModal" href="@Url.Action("CreateEditBook")" class="btn btn-success">
+            <span class="glyphicon glyphicon-plus"></span>Book
+        </a>
+
+        <table class="table" style="margin: 4px">
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Author)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ISBN)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Url)
+                </th>
+                <th>
+                    操作
+                </th>
+
+                <th></th>
+            </tr>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Author)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ISBN)
+                    </td>
+                    <td>
+                        <a class="glyphicon glyphicon-download-alt" href="@Url.Action("download", "book", new { id = item.ID })" title="@item.Title" alt="下载"></a>
+                    </td>
+                    <td>
+                        @Html.ActionLink("编辑", "CreateEditBook", new { id = item.ID }, new { @class = "btn btn-success" }) |
+                        @Html.ActionLink("概述", "DetailBook", new { id = item.ID }, new { @class = "btn btn-primary" }) |
+                        @Html.ActionLink("删除", "DeleteBook", new { id = item.ID }, new { @class = "btn btn-danger" })
+                    </td>
+                </tr>
+            }
+
+        </table>
+    </div>
+</div>
+
+

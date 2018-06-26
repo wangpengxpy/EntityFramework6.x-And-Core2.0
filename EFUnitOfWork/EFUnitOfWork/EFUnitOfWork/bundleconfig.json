@@ -1,0 +1,32 @@
+[
+  {
+    "outputFileName": "Scripts/book-upload.min.js",
+    "inputFiles": [
+      "Scripts/book-upload.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/book-create-edit.min.js",
+    "inputFiles": [
+      "Scripts/book-create-edit.js"
+    ]
+  },
+  {
+    "outputFileName": "Scripts/bootstrap-datepicker.min.js",
+    "inputFiles": [
+      "Scripts/bootstrap-datepicker.js"
+    ]
+  },
+  {
+    "outputFileName": "Content/site.min.css",
+    "inputFiles": [
+      "Content/site.css"
+    ]
+  },
+  {
+    "outputFileName": "Content/datepicker3.min.css",
+    "inputFiles": [
+      "Content/datepicker3.css"
+    ]
+  }
+]

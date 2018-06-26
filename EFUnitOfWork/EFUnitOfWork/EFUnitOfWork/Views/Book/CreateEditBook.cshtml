@@ -1,0 +1,66 @@
+﻿@model EFUnitOfWork.Models.BookDTO
+@{
+    ViewBag.Title = "add/edit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="book-example panel panel-primary">
+    <div class="panel-heading panel-head">
+        @if (Model != null && Model.ID > 0)
+        {
+            <text>编辑书籍</text>
+        }
+        else
+        {
+
+            <text>添加书籍</text>
+        }
+    </div>
+    <div class="panel-body">
+        @using (Html.BeginForm())
+        {
+            <div class="form-horizontal">
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Title, new { @class = "col-lg-1 control-label" })
+                    <div class="col-lg-9">
+                        @Html.TextBoxFor(model => model.Title, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.ISBN, new { @class = "col-lg-1 control-label" })
+                    <div class="col-lg-9">
+                        @Html.TextBoxFor(model => model.ISBN, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Author, new { @class = "col-lg-1 control-label" })
+                    <div class="col-lg-9">
+                        @Html.TextBoxFor(model => model.Author, new { @class = "form-control" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    @Html.LabelFor(model => model.Published, new { @class = "col-lg-1 control-label" })
+                    <div class="col-lg-9">
+                        @Html.TextBoxFor(model => model.Published, new { @class = "form-control datepicker" })
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-lg-8"></div>
+                    <div class="col-lg-3">
+                        @Html.ActionLink("首页", "Index", null, new { @class = "btn btn-default" })
+                        <button class="btn btn-success" id="btnSubmit" type="submit">
+                            提交
+                        </button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+@section scripts
+{
+    <script src="~/Scripts/bootstrap-datepicker.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/book-create-edit.min.js" type="text/javascript"></script>
+    <script src="~/Scripts/bootstrap-fileinput/js/fileinput.min.js" type="text/javascript"></script>
+}
+
