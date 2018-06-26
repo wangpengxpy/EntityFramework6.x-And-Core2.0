@@ -1,0 +1,14 @@
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFrameworkTransactionScope.Data.dll.config
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFrameworkTransactionScope.Data.dll
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFrameworkTransactionScope.Data.pdb
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.dll
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.pdb
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.Migrations.FlightDbContext.Initial.resources
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.Data\obj\Debug\EntityFrameworkTransactionScope.Data.Migrations.HotelDbContext.Initial.resources

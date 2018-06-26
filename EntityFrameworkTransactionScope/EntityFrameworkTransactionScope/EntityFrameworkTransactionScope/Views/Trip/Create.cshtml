@@ -1,0 +1,80 @@
+﻿@model EntityFrameworkTransactionScope.Data.Entity.TripReservation
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2 class="text-center">旅游出行</h2>
+@using(Html.BeginForm()){
+
+
+<table class="table table-condensed table-striped table-bordered">
+    <tr>
+        <td>
+            <table class="table table-condensed table-striped table-bordered">
+                <tr>
+                    <td colspan="2" class="text-center">
+                        航班信息
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                       航班Id:
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.Filght.FlightId)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        航班名称:
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.Filght.FilghtName)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        航班号:
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.Filght.Number)
+                    </td>
+                </tr>
+            </table>
+        </td>
+        <td>
+            <table class="table table-condensed table-striped table-bordered">
+                <tr>
+                    <td colspan="2" class="text-center">
+                        预约信息
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        预约Id:
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.Hotel.BookingId)
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        客户名称
+                    </td>
+                    <td>
+                        @Html.EditorFor(m => m.Hotel.Name)
+                    </td>
+                </tr>
+
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" class="text-center">
+            <input type="submit" value="提交预约" />
+        </td>
+    </tr>
+</table>
+
+}
