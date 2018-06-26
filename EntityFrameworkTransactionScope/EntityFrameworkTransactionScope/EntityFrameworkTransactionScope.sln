@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTransactionScope", "EntityFrameworkTransactionScope\EntityFrameworkTransactionScope.csproj", "{B6802AAD-8930-4F06-940C-0FF731DDC6C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFrameworkTransactionScope.Data", "EntityFrameworkTransactionScope.Data\EntityFrameworkTransactionScope.Data.csproj", "{7CC4EAD6-67C4-4555-B420-7B5906D39F06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6802AAD-8930-4F06-940C-0FF731DDC6C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6802AAD-8930-4F06-940C-0FF731DDC6C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6802AAD-8930-4F06-940C-0FF731DDC6C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6802AAD-8930-4F06-940C-0FF731DDC6C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CC4EAD6-67C4-4555-B420-7B5906D39F06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CC4EAD6-67C4-4555-B420-7B5906D39F06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CC4EAD6-67C4-4555-B420-7B5906D39F06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CC4EAD6-67C4-4555-B420-7B5906D39F06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D280B625-90C9-4F0B-A4D7-71582734E9E3}
+	EndGlobalSection
+EndGlobal
