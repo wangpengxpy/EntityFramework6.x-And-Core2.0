@@ -1,11 +1,9 @@
 # 《你必须掌握的EntityFramework 6.x与Core 2.0》源码
 
 
-### 通过上述Branch切换分支
-
-#### 《EF.DI》
-#### 《EFCoreConcurrency》
-#### 《EFUnitOfWork》
-#### 《EntityFramework6》
-#### 《EntityFrameworkBaseExample》
-#### 《EntityFrameworkTransactionScope》
+#### 《EF.DI》-依赖注入泛型仓储模式
+#### 《EFCoreConcurrency》-ef core并发解析控制台例子
+#### 《EFUnitOfWork》-工作单元泛型仓储模式
+#### 《EntityFramework6》-ef 6.x控制台例子
+#### 《EntityFrameworkBaseExample》-ef 6复杂属性以JSON格式存储
+#### 《EntityFrameworkTransactionScope》-
