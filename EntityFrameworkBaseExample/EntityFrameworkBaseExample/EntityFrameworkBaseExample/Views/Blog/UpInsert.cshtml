@@ -1,0 +1,72 @@
+﻿@model EntityFrameworkBaseExample.Entity.Blog
+@{
+    ViewBag.Title = Model == null ? "添加博客" : "编辑博客";
+}
+<h2>@ViewData["Title"]</h2>
+
+
+@using (Html.BeginForm("UpInsert", "Blog", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(d => d.Id)
+    @Html.AntiForgeryToken()
+    <div class="form-horizontal">
+        @Html.ValidationMessage("All", new { @class = "text-danger" })
+        <div class="form-group">
+            @Html.LabelFor(d => d.Url, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(d => d.Url, new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Url, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Tags, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                <select name="Tags[]" class="form-control" multiple>
+                    <option value="C#">C#</option>
+                    <option value="ASP.NET">ASP.NET</option>
+                    <option value=".NET Core">.NET Core</option>
+                    <option value="SQL Server">SQL Server</option>
+                    <option value="VS">Visual Studio</option>
+                    <option value="EF">EntityFramework</option>
+                </select>
+                @Html.ValidationMessageFor(d => d.Tags, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Owner.Name, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(d => d.Owner.Name, new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Owner.Name, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Owner.EnglishName, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(d => d.Owner.EnglishName, new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Owner.EnglishName, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(d => d.Owner.Email, new { @class = "col-md-2 control-label" })
+            <div class="col-md-10">
+                @Html.TextBoxFor(d => d.Owner.Email, new { @class = "form-control" })
+                @Html.ValidationMessageFor(d => d.Owner.Email, "", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                @{
+                    if (Model == null || Model.Id <= 0)
+                    {
+                        <input type="submit" value="创建" class="btn btn-success" />
+                    }
+                    else
+                    {
+                        <input type="submit" value="修改" class="btn btn-success" />
+                    }
+                }
+            </div>
+        </div>
+    </div>
+                    }
