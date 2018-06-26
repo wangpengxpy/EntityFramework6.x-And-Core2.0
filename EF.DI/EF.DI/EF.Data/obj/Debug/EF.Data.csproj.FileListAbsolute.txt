@@ -1,0 +1,15 @@
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EF.Data.dll.config
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EF.Data.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EF.Data.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EF.Core.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EF.Core.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.Migrations.Initial.resources
+D:\Visual Studio 2015\Projects\EF.DI\EF.Data\obj\Debug\EF.Data.csproj.GenerateResource.Cache
