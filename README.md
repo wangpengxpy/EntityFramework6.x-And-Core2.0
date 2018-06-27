@@ -1,1 +1,1 @@
-# -EntityFramework-6.x-Core-2.0-
+# 《你必须掌握的EntityFramework 6.x与Core 2.0》
