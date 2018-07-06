@@ -1,0 +1,14 @@
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework6.exe.config
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework6.exe
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework6.pdb
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.exe
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.pdb
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.Migrations.Initial.resources
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.csproj.GenerateResource.Cache
+D:\Visual Studio 2015\Projects\EntityFramework6\EntityFramework6\obj\Debug\EntityFramework6.Migrations.update.resources
