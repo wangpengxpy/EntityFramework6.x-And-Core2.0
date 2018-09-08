@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26228.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCoreConcurrency", "EFCoreConcurrency\EFCoreConcurrency.csproj", "{3789A8A3-B2B6-47DB-9899-18C3EF54B51D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyLambdaExpression", "StudyLambdaExpression\StudyLambdaExpression.csproj", "{B1AD0C31-764A-4F7A-9845-574FC2254A4A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Model", "EFCore.Model\EFCore.Model.csproj", "{5B49A4B8-EF73-4E20-A6C7-0D953D02775F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3789A8A3-B2B6-47DB-9899-18C3EF54B51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3789A8A3-B2B6-47DB-9899-18C3EF54B51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3789A8A3-B2B6-47DB-9899-18C3EF54B51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3789A8A3-B2B6-47DB-9899-18C3EF54B51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1AD0C31-764A-4F7A-9845-574FC2254A4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1AD0C31-764A-4F7A-9845-574FC2254A4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1AD0C31-764A-4F7A-9845-574FC2254A4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1AD0C31-764A-4F7A-9845-574FC2254A4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B49A4B8-EF73-4E20-A6C7-0D953D02775F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B49A4B8-EF73-4E20-A6C7-0D953D02775F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B49A4B8-EF73-4E20-A6C7-0D953D02775F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B49A4B8-EF73-4E20-A6C7-0D953D02775F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
