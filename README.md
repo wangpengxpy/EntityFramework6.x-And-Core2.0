@@ -8,5 +8,3 @@
 #### 《EF.DI》-ef 6.x依赖注入泛型仓储模式
 #### 《EFUnitOfWork》-ef 6.x工作单元泛型仓储模式
 #### 《EFCoreConcurrency》-ef core并发解析控制台例子
-
-

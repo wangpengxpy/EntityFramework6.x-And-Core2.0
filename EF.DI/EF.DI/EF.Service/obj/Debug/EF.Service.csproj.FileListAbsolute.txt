@@ -1,0 +1,13 @@
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\obj\Debug\EF.Service.csproj.CoreCompileInputs.cache
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Service.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Service.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Core.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Data.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Core.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Data.pdb
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EF.Data.dll.config
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\obj\Debug\EF.Service.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\obj\Debug\EF.Service.dll
+D:\Visual Studio 2015\Projects\EF.DI\EF.Service\obj\Debug\EF.Service.pdb
